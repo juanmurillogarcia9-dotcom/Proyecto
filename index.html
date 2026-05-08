@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecogualdea Guane | Salud Mental Femenina</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --verde-bosque: #2D5A27;
+            --azul-paz: #E0F2F1;
+            --amarillo-luz: #FFD54F;
+            --cafe-tierra: #5D4037;
+        }
+        body { font-family: 'Montserrat', sans-serif; background-color: #fcfaf7; color: var(--cafe-tierra); }
+        h1, h2, h3 { font-family: 'Lora', serif; }
+        .bg-verde { background-color: var(--verde-bosque); }
+        .text-cafe { color: var(--cafe-tierra); }
+        .bg-amarillo { background-color: var(--amarillo-luz); }
+        .bg-azul-claro { background-color: var(--azul-paz); }
+        
+        .hero-gradient {
+            background: linear-gradient(rgba(45, 90, 39, 0.6), rgba(45, 90, 39, 0.6)), 
+                        url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1920');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav class="flex justify-between items-center p-6 bg-white shadow-sm sticky top-0 z-50">
+        <div class="text-2xl font-bold text-verde-800 tracking-tighter" style="color: var(--verde-bosque);">
+            EcoAldea<span class="font-light">Guaneq</span>
+        </div>
+        <div class="hidden md:flex space-x-8 font-medium">
+            <a href="#inicio" class="hover:text-green-700">Inicio</a>
+            <a href="#retiro" class="hover:text-green-700">El Retiro</a>
+            <a href="#temas" class="hover:text-green-700">Temas</a>
+            <a href="#comentarios" class="hover:text-green-700">Comunidad</a>
+        </div>
+        <a href="https://wa.me/TU_NUMERO_AQUI" class="bg-amarillo px-6 py-2 rounded-full font-semibold shadow-md hover:scale-105 transition">
+            Reservar Cupo
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-gradient h-[80vh] flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-3xl">
+            <h1 class="text-5xl md:text-6xl mb-4">Sanidad Mental en la Montaña</h1>
+            <p class="text-xl mb-8 font-light italic">Un espacio sagrado para mujeres de 30 a 60 años que buscan despertar su conciencia.</p>
+            <a href="#retiro" class="bg-white text-verde-900 px-8 py-3 rounded-full font-bold text-lg hover:bg-azul-paz transition">Descubre la Experiencia</a>
+        </div>
+    </section>
+
+    <!-- Producto Nuevo: 3 días y 2 noches -->
+    <section id="retiro" class="py-20 px-6 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-green-600 font-bold tracking-widest uppercase text-sm">Producto Nuevo</span>
+                <h2 class="text-4xl mt-2 mb-6">Despertar de Conciencia</h2>
+                <p class="text-lg mb-6 leading-relaxed">
+                    Vive <strong>3 días y 2 noches</strong> de inmersión total. Diseñado para desconectar del ruido urbano y reconectar con tu paz interior a través de la naturaleza.
+                </p>
+                <ul class="space-y-4">
+                    <li class="flex items-center"><span class="bg-yellow-200 p-1 rounded-full mr-3">✔</span> Amaneceres conscientes y meditación.</li>
+                    <li class="flex items-center"><span class="bg-yellow-200 p-1 rounded-full mr-3">✔</span> Senderismo terapéutico por la montaña.</li>
+                    <li class="flex items-center"><span class="bg-yellow-200 p-1 rounded-full mr-3">✔</span> Talleres de sanidad emocional guiados.</li>
+                </ul>
+            </div>
+            <div class="bg-azul-claro p-8 rounded-3xl shadow-inner border border-blue-100 text-center">
+                <h3 class="text-2xl mb-4">Ampliación de Cupos</h3>
+                <p class="mb-6 italic text-gray-600">Nuestros grupos son pequeños para garantizar atención personalizada. ¿Deseas abrir una fecha especial?</p>
+                <a href="https://wa.me/TU_NUMERO_AQUI" class="inline-block bg-verde text-white px-10 py-4 rounded-xl font-bold shadow-lg">Consultar Disponibilidad</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Temas y Noticias -->
+    <section id="temas" class="bg-verde text-white py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl text-center mb-16">Espacio de Bienestar</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white/10 p-6 rounded-lg border border-white/20">
+                    <h3 class="text-xl mb-3 text-yellow-300">Noticias</h3>
+                    <p class="text-sm italic">Próxima jornada de siembra consciente: Junio 2026.</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-lg border border-white/20">
+                    <h3 class="text-xl mb-3 text-yellow-300">Temas Semanales</h3>
+                    <p class="text-sm">Cómo el aire de montaña reduce el cortisol en mujeres adultas.</p>
+                </div>
+                <div class="bg-white/10 p-6 rounded-lg border border-white/20">
+                    <h3 class="text-xl mb-3 text-yellow-300">Comentarios</h3>
+                    <p class="text-sm">"Este lugar cambió mi forma de ver mis 40 años. Regresé renovada." - Elena M.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contacto Único -->
+    <footer class="py-16 text-center px-6">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-3xl mb-4">¿Lista para tu despertar?</h2>
+            <p class="mb-10 text-gray-500">Para asegurar un ambiente de confianza, todas nuestras reservas y consultas se manejan de forma personal por WhatsApp.</p>
+            
+            <a href="https://wa.me/TU_NUMERO_AQUI" class="bg-[#25D366] hover:bg-green-600 text-white flex items-center justify-center gap-3 py-5 rounded-full text-xl font-bold shadow-2xl transition-transform hover:scale-105">
+                <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                Contactar por WhatsApp
+            </a>
+
+            <div class="mt-20 pt-8 border-t border-gray-200 text-sm text-gray-400">
+                <p>EcoAldeaGuaneq 2026 - Sanidad Mental en la Montaña.</p>
+                <p>Reservados todos los derechos.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
